@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chrome Extension Frontend</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 0 20px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .button-style {
+      background-color: darkorange;
+      color: white;
+      font-size: 18px;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      border: none;
+      width: 300px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .result {
+      margin: 5px;
+      text-align: center;
+    }
+    #url-input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 300px;
+      margin-right: 10px;
+    }
+    .run-button {
+      background-color: green;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="button-container">
+    <h1>Chrome Extension</h1>
+    <input type="text" id="url-input" placeholder="Enter URL">
+    
+    <button id="run-button" class="run-button">&#9658;</button>
+    
+    <div id="summary-result" class="button-style">Summary Result:</div>
+    <div id="summary-text" class="result"></div>
+    
+    <div id="privacy-result" class="button-style">Privacy Policy Result:</div>
+    <div id="privacy-text" class="result"></div>
+</div>
+
+
+<script src="your-external-script.js"></script>
+
+
+</body>
+</html>

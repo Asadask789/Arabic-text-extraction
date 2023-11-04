@@ -1,0 +1,19 @@
+{
+    "name": "Privacy policy scorer",
+    "version": "1.0.0",
+    "description": "Summarizes Arabic Privacy policy and gives ratings",
+    "manifest_version": 3,
+    "author": "A",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Arabic Privacy policy scorer"
+    },
+    "permissions": [
+        "activeTab",
+        "https://n30cfr1w-7000.inc1.devtunnels.ms/rating",
+        "https://n30cfr1w-8080.inc1.devtunnels.ms/summarize"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}
