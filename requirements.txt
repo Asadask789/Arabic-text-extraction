@@ -10,4 +10,4 @@ python-multipart
 
 bs4
 fake_useragent
-sklearn
+scikit-learn
