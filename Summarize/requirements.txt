@@ -1,0 +1,13 @@
+fastapi
+pydantic
+beautifulsoup4
+transformers
+torch
+nltk
+uvicorn
+requests
+python-multipart
+re
+bs4
+fake_useragent
+sklearn
